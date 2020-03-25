@@ -72,13 +72,13 @@ Crie uma função com as seguintes características:
 function exer(x,y,z){
 ... if(x !== undefined && y === undefined && z === undefined){
 ..... return x;
-..... }else if(x !== undefined && y !== undefined && z === undefined){
+..... } else if(x !== undefined && y !== undefined && z === undefined){
 ..... return x + y; 
-..... }else if(x !== undefined && y !== undefined && z !== undefined){
+..... } else if(x !== undefined && y !== undefined && z !== undefined){
 ..... return (x + y) / z;
-..... }else if(x === undefined && y === undefined && z === undefined){
+..... } else if(x === undefined && y === undefined && z === undefined){
 ..... return false;
-..... }else{
+..... } else {
 ..... return null;
 ..... }
 ... }
@@ -86,4 +86,9 @@ function exer(x,y,z){
 
 // Invoque a função acima utilizando todas as possibilidades (com nenhum argumento, com um, com dois e com três.) Coloque um comentário de linha ao lado da função com o resultado de cada invocação.
 ?
-```
+> exer(); //false
+> exer(6,4); //10
+> exer(6,4,2); //5
+> exer(2); //2
+
+
